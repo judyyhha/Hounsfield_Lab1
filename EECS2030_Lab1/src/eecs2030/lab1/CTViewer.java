@@ -79,7 +79,6 @@ public class CTViewer extends JFrame implements ActionListener, WindowListener {
 			}
 			return result;
 		}
-
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JTextField source = (JTextField) e.getSource();
@@ -87,7 +86,6 @@ public class CTViewer extends JFrame implements ActionListener, WindowListener {
 			source.selectAll();
 		}
 	}
-
 	private static final long serialVersionUID = -5014881134408541953L;
 
 	private static final int CT_HEIGHT = 512;
